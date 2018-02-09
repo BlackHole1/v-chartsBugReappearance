@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 
+import VeLine from 'v-charts/lib/line'
+Vue.component(VeLine.name, VeLine)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
